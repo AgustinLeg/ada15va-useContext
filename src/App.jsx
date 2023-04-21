@@ -1,8 +1,9 @@
-import { useContext } from 'react'
+// import { useContext } from 'react'
 import './App.css'
-import { Hijo } from './components/Hijo'
-import { UserContext } from './context/UserContext'
-import { ThemeSelect } from './components/ThemeSelect'
+import { Formulario } from './components/Formulario'
+// import { Hijo } from './components/Hijo'
+// import { UserContext } from './context/UserContext'
+// import { ThemeSelect } from './components/ThemeSelect'
 
 // si empieza con use es un ... Hook
 /**
@@ -10,14 +11,16 @@ El Hook useContext en React es como una varita mágica que te permite compartir 
  */
 
 function App() {
-  const { handleLogin } = useContext(UserContext)
+  // const { handleLogin } = useContext(UserContext)
 
   return (
     <div className="">
-      <ThemeSelect />
+      {/* <ThemeSelect />
       <h1>Clase 05 - Modulo 2 - useContext</h1>
       <button onClick={handleLogin}>Iniciar Sesion</button>
-      <Hijo />
+      <Hijo /> */}
+
+      <Formulario />
     </div>
   )
 }
